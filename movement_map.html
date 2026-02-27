@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c3dcbf508739c113b2f77bc6d3d3db55 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c3dcbf508739c113b2f77bc6d3d3db55" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c3dcbf508739c113b2f77bc6d3d3db55 = L.map(
+                "map_c3dcbf508739c113b2f77bc6d3d3db55",
+                {
+                    center: [17.36187055555556, 78.47500361111112],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f3f05e95f97e13de384f3e5277e69bc9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f3f05e95f97e13de384f3e5277e69bc9.addTo(map_c3dcbf508739c113b2f77bc6d3d3db55);
+        
+    
+            var marker_059b7fd96a7e04c5700d07f20d05b783 = L.marker(
+                [17.36187055555556, 78.47500361111112],
+                {
+}
+            ).addTo(map_c3dcbf508739c113b2f77bc6d3d3db55);
+        
+    
+            var div_icon_902661cb2ae4c542829cc9003c7bc0b8 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    font-size:14px;\n                    color:white;\n                    background:red;\n                    border-radius:50%;\n                    width:25px;\n                    height:25px;\n                    text-align:center;\n                    line-height:25px;\"\u003e\n                    1\n                \u003c/div\u003e\n                ",
+  "className": "empty",
+});
+        
+    
+        var popup_e0212b1e3a782f07d6b7ee0ef4a04197 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_410ab35cd0f0e9a30f84f3d9b341885e = $(`<div id="html_410ab35cd0f0e9a30f84f3d9b341885e" style="width: 100.0%; height: 100.0%;">Visit #1 Possible Charminar (Hyderabad) 2009:01:14 01:55:49</div>`)[0];
+                popup_e0212b1e3a782f07d6b7ee0ef4a04197.setContent(html_410ab35cd0f0e9a30f84f3d9b341885e);
+            
+        
+
+        marker_059b7fd96a7e04c5700d07f20d05b783.bindPopup(popup_e0212b1e3a782f07d6b7ee0ef4a04197)
+        ;
+
+        
+    
+    
+                marker_059b7fd96a7e04c5700d07f20d05b783.setIcon(div_icon_902661cb2ae4c542829cc9003c7bc0b8);
+            
+    
+            var marker_58ef3fe50628ded8e7aa34726bbb5a14 = L.marker(
+                [12.231633333333333, 79.067825],
+                {
+}
+            ).addTo(map_c3dcbf508739c113b2f77bc6d3d3db55);
+        
+    
+            var div_icon_6687a90bc2dcfec63b1ef5e9f59fbbe6 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    font-size:14px;\n                    color:white;\n                    background:red;\n                    border-radius:50%;\n                    width:25px;\n                    height:25px;\n                    text-align:center;\n                    line-height:25px;\"\u003e\n                    2\n                \u003c/div\u003e\n                ",
+  "className": "empty",
+});
+        
+    
+        var popup_6dc60f95bbd07adb9631a031fbd03d32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d93e1f5ad7f0bc79e2f7b51f2637633 = $(`<div id="html_1d93e1f5ad7f0bc79e2f7b51f2637633" style="width: 100.0%; height: 100.0%;">Visit #2 solar dish in Tiruvannamalai 2025:03:07 11:15:10</div>`)[0];
+                popup_6dc60f95bbd07adb9631a031fbd03d32.setContent(html_1d93e1f5ad7f0bc79e2f7b51f2637633);
+            
+        
+
+        marker_58ef3fe50628ded8e7aa34726bbb5a14.bindPopup(popup_6dc60f95bbd07adb9631a031fbd03d32)
+        ;
+
+        
+    
+    
+                marker_58ef3fe50628ded8e7aa34726bbb5a14.setIcon(div_icon_6687a90bc2dcfec63b1ef5e9f59fbbe6);
+            
+    
+            var marker_a5780e3924928a9e771004812176fd73 = L.marker(
+                [18.922194444444447, 72.834175],
+                {
+}
+            ).addTo(map_c3dcbf508739c113b2f77bc6d3d3db55);
+        
+    
+            var div_icon_9bca2be69d0df31af7c99b311fa3ab87 = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    font-size:14px;\n                    color:white;\n                    background:red;\n                    border-radius:50%;\n                    width:25px;\n                    height:25px;\n                    text-align:center;\n                    line-height:25px;\"\u003e\n                    3\n                \u003c/div\u003e\n                ",
+  "className": "empty",
+});
+        
+    
+        var popup_593828407b376c3918ee68a9202280c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1cb400110c9ba3b396213c41ab66678 = $(`<div id="html_d1cb400110c9ba3b396213c41ab66678" style="width: 100.0%; height: 100.0%;">Visit #3 crate in Mumbai 2026:02:07 19:32:42</div>`)[0];
+                popup_593828407b376c3918ee68a9202280c5.setContent(html_d1cb400110c9ba3b396213c41ab66678);
+            
+        
+
+        marker_a5780e3924928a9e771004812176fd73.bindPopup(popup_593828407b376c3918ee68a9202280c5)
+        ;
+
+        
+    
+    
+                marker_a5780e3924928a9e771004812176fd73.setIcon(div_icon_9bca2be69d0df31af7c99b311fa3ab87);
+            
+    
+            var marker_8f12703cbc0f7de5252cc6635a316ad4 = L.marker(
+                [14.681113888888888, 77.5962611111111],
+                {
+}
+            ).addTo(map_c3dcbf508739c113b2f77bc6d3d3db55);
+        
+    
+            var div_icon_945d6b04d95a563999f5527234b87c7c = L.divIcon({
+  "html": "\n                \u003cdiv style=\"\n                    font-size:14px;\n                    color:white;\n                    background:red;\n                    border-radius:50%;\n                    width:25px;\n                    height:25px;\n                    text-align:center;\n                    line-height:25px;\"\u003e\n                    4\n                \u003c/div\u003e\n                ",
+  "className": "empty",
+});
+        
+    
+        var popup_0b9a17649ba1c94f47d8fb575f36dbf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf3f15dd22efa07f3861a275aac494ee = $(`<div id="html_bf3f15dd22efa07f3861a275aac494ee" style="width: 100.0%; height: 100.0%;">Visit #4 bell cote in Anantapur None</div>`)[0];
+                popup_0b9a17649ba1c94f47d8fb575f36dbf8.setContent(html_bf3f15dd22efa07f3861a275aac494ee);
+            
+        
+
+        marker_8f12703cbc0f7de5252cc6635a316ad4.bindPopup(popup_0b9a17649ba1c94f47d8fb575f36dbf8)
+        ;
+
+        
+    
+    
+                marker_8f12703cbc0f7de5252cc6635a316ad4.setIcon(div_icon_945d6b04d95a563999f5527234b87c7c);
+            
+    
+            var poly_line_caded5a9b5f13c435084b0b64300464b = L.polyline(
+                [[17.36187055555556, 78.47500361111112], [12.231633333333333, 79.067825], [18.922194444444447, 72.834175], [14.681113888888888, 77.5962611111111]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c3dcbf508739c113b2f77bc6d3d3db55);
+        
+    
+            var heat_map_d0cace5df92f86a032866b0167dbf339 = L.heatLayer(
+                [[17.36187055555556, 78.47500361111112], [12.231633333333333, 79.067825], [18.922194444444447, 72.834175], [14.681113888888888, 77.5962611111111]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_d0cace5df92f86a032866b0167dbf339.addTo(map_c3dcbf508739c113b2f77bc6d3d3db55);
+        
+</script>
+</html>
